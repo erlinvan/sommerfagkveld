@@ -20,6 +20,7 @@ export type EventFieldRecordType = {
 };
 
 export type AirtableRecordType = {
+  id: string;
   fields: EventFieldRecordType;
 };
 

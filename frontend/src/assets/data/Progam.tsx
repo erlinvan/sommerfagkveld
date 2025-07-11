@@ -2,6 +2,7 @@ import { AirtableRecordType } from "../../types";
 
 export const mockAirtableRecords: AirtableRecordType[] = [
   {
+    id: "rec1",
     fields: {
       tittel: "Felles intro",
       rom: "Kantina",
@@ -13,6 +14,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec2",
     fields: {
       tittel: "Hvordan være leder",
       rom: "Kantina",
@@ -24,6 +26,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec3",
     fields: {
       tittel: "Kreativitet kan omsettes til data",
       rom: "Kantina",
@@ -35,6 +38,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec4",
     fields: {
       tittel: "Devhacks",
       rom: "Hovedøya",
@@ -46,6 +50,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec5",
     fields: {
       tittel: "AI hos Udir",
       rom: "Hovedøya",
@@ -57,6 +62,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec6",
     fields: {
       tittel: "Pause",
       rom: "Kantina",
@@ -69,6 +75,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
   },
 
   {
+    id: "rec6",
     fields: {
       tittel: "Produktutvikling",
       rom: "Kantina",
@@ -80,6 +87,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec7",
     fields: {
       tittel: "Brannfakler om AI og Design",
       rom: "Kantina",
@@ -91,6 +99,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec8",
     fields: {
       tittel: "Prouduktutvikling",
       rom: "Hovedøya",
@@ -102,6 +111,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec9",
     fields: {
       tittel: "Frontend as a service",
       rom: "Hovedøya",
@@ -113,6 +123,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec10",
     fields: {
       tittel: "Pause",
       tid_fra: "17:35",
@@ -124,6 +135,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec11",
     fields: {
       tittel: "Hvordan lage rotfest",
       rom: "Kantina",
@@ -135,6 +147,7 @@ export const mockAirtableRecords: AirtableRecordType[] = [
     },
   },
   {
+    id: "rec12",
     fields: {
       tittel: "Lyntaler",
       rom: "Kantina",
