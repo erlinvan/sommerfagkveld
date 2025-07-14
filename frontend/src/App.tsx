@@ -4,11 +4,10 @@ import { Navbar } from "./components/Navbar";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Program } from "./pages/Program.tsx";
 import styled from "styled-components";
-import useData from "./hooks/useData.ts";
 import { Forside } from "./pages/Forside.tsx";
 import { Kart } from "./pages/Kart.tsx";
-import { EventType, AirtableRecordType, FetchDataType } from "./types.ts";
-import { mockAirtableRecords } from "./assets/data/Progam.tsx";
+import { EventType, AirtableRecordType } from "./types.ts";
+import { mockAirtableRecords } from "./assets/data/Program.tsx";
 
 const mapEvents = (data: AirtableRecordType[]): EventType[] => {
   return data.map(
@@ -30,9 +29,7 @@ const mapEvents = (data: AirtableRecordType[]): EventType[] => {
 };
 
 function App() {
-  const foredrag: FetchDataType = useData("foredrag");
   const arraySrcs = ["/logo.png", "/sirkelmedkryss.svg", "/sirkelmedpil.svg"];
-  console.log(foredrag);
 
   return (
     <>
