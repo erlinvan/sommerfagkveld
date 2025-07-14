@@ -1,92 +1,91 @@
 /* Styling for whole app */
 :root {
-	--background-color: #fff2ad;
-	--text-color: #0e0e0e;
-	--blokk-color: #ff5b5b;
-	--rom-color: #646464;
+  --background-color: #c8e4f9;
+  --text-color: #000000;
+  --blokk-color: #e623df;
+  --rom-color: #646464;
 }
 
 #root {
-	display: flex;
-	flex-direction: column;
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 0 5px;
-	text-align: center;
-	height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+  text-align: center;
+  height: 100vh;
 }
 
 body {
-	background-color: var(--background-color);
-	color: var(--text-color);
-	font-family: 'DINOT-Light';
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "DINOT-Light";
 }
 
 h2 {
-	font-size: 1.75rem;
-	font-family: 'DINOT-Medium';
+  font-size: 1.75rem;
+  font-family: "DINOT-Medium";
 
-	@media (min-width: 830px) {
-		font-size: 32px;
-	}
+  @media (min-width: 830px) {
+    font-size: 32px;
+  }
 }
 h3 {
-	font-size: 1.25rem;
-	font-family: 'DINOT-Light';
+  font-size: 1.25rem;
+  font-family: "DINOT-Light";
 
-	@media (min-width: 830px) {
-		font-size: 24px;
-	}
+  @media (min-width: 830px) {
+    font-size: 24px;
+  }
 }
 
 a {
-	color: var(--text-color);
+  color: var(--text-color);
 
-	@media (min-width: 830px) {
-		font-size: 20px;
-	}
+  @media (min-width: 830px) {
+    font-size: 20px;
+  }
 }
 
 .body-text {
-	font-size: 1rem;
-	font-family: 'DINOT-Light';
+  font-size: 1rem;
+  font-family: "DINOT-Light";
 
-	@media (min-width: 830px) {
-		font-size: 20px;
-	}
+  @media (min-width: 830px) {
+    font-size: 20px;
+  }
 }
 
 .body-text-caption {
-	font-size: 0.75rem;
-	font-family: 'DINOT-Medium';
-	text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: "DINOT-Medium";
+  text-transform: uppercase;
 }
 .body-text-small {
-	font-size: 0.875rem;
-	font-family: 'DINOT-Light';
+  font-size: 0.875rem;
+  font-family: "DINOT-Light";
 }
 
 @font-face {
-	font-family: 'DINOT';
-	src: local('DINOT'), url('./assets/DINOT.ttf') format('truetype');
+  font-family: "DINOT";
+  src: local("DINOT"), url("./assets/DINOT.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: 'DINOT-Light';
-	src: local('DINOT-Light'),
-		url('./assets/DINOT-Light.ttf') format('truetype');
+  font-family: "DINOT-Light";
+  src: local("DINOT-Light"), url("./assets/DINOT-Light.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: 'DINOT-LightItalic';
-	src: local('DINOT-LightItalic'),
-		url('./assets/DINOT-LightItalic.ttf') format('truetype');
+  font-family: "DINOT-LightItalic";
+  src: local("DINOT-LightItalic"),
+    url("./assets/DINOT-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: 'DINOT-Medium';
-	src: local('DINOT-Medium'),
-		url('./assets/DINOT-Medium.ttf') format('truetype');
+  font-family: "DINOT-Medium";
+  src: local("DINOT-Medium"),
+    url("./assets/DINOT-Medium.ttf") format("truetype");
 }
 
 /* @font-face {
@@ -96,51 +95,51 @@ a {
 } */
 
 @font-face {
-	font-family: 'GT America regular';
-	src: url('./assets/GT America/WOFF2/GT-America-Standard-Regular.woff2')
-			format('woff2'),
-		url('./assets/GT America/WOFF/GT-America-Standard-Regular.woff')
-			format('woff'),
-		url('./assets/GT America/TTF/GT-America-Standard-Regular.ttf')
-			format('truetype');
+  font-family: "GT America regular";
+  src: url("./assets/GT America/WOFF2/GT-America-Standard-Regular.woff2")
+      format("woff2"),
+    url("./assets/GT America/WOFF/GT-America-Standard-Regular.woff")
+      format("woff"),
+    url("./assets/GT America/TTF/GT-America-Standard-Regular.ttf")
+      format("truetype");
 }
 
 @font-face {
-	font-family: 'GT America medium';
-	src: url('./assets/GT America/WOFF2/GT-America-Standard-Medium.woff2')
-			format('woff2'),
-		url('./assets/GT America/WOFF/GT-America-Standard-Medium.woff')
-			format('woff'),
-		url('./assets/GT America/TTF/GT-America-Standard-Medium.ttf')
-			format('truetype');
+  font-family: "GT America medium";
+  src: url("./assets/GT America/WOFF2/GT-America-Standard-Medium.woff2")
+      format("woff2"),
+    url("./assets/GT America/WOFF/GT-America-Standard-Medium.woff")
+      format("woff"),
+    url("./assets/GT America/TTF/GT-America-Standard-Medium.ttf")
+      format("truetype");
 }
 
 @font-face {
-	font-family: 'GT America expanded regular';
-	src: url('./assets/GT America/WOFF2/GT-America-Expanded-Regular.woff2')
-			format('woff2'),
-		url('./assets/GT America/WOFF/GT-America-Expanded-Regular.woff')
-			format('woff'),
-		url('./assets/GT America/TTF/GT-America-Expanded-Regular.ttf')
-			format('truetype');
+  font-family: "GT America expanded regular";
+  src: url("./assets/GT America/WOFF2/GT-America-Expanded-Regular.woff2")
+      format("woff2"),
+    url("./assets/GT America/WOFF/GT-America-Expanded-Regular.woff")
+      format("woff"),
+    url("./assets/GT America/TTF/GT-America-Expanded-Regular.ttf")
+      format("truetype");
 }
 
 @font-face {
-	font-family: 'GT America expanded medium';
-	src: url('./assets/GT America/WOFF2/GT-America-Expanded-Medium.woff2')
-			format('woff2'),
-		url('./assets/GT America/WOFF/GT-America-Expanded-Medium.woff')
-			format('woff'),
-		url('./assets/GT America/TTF/GT-America-Expanded-Medium.ttf')
-			format('truetype');
+  font-family: "GT America expanded medium";
+  src: url("./assets/GT America/WOFF2/GT-America-Expanded-Medium.woff2")
+      format("woff2"),
+    url("./assets/GT America/WOFF/GT-America-Expanded-Medium.woff")
+      format("woff"),
+    url("./assets/GT America/TTF/GT-America-Expanded-Medium.ttf")
+      format("truetype");
 }
 
 @font-face {
-	font-family: 'GT America regular italic';
-	src: url('./assets/GT America/WOFF2/GT-America-Standard-Regular-Italic.woff2')
-			format('woff2'),
-		url('./assets/GT America/WOFF/GT-America-Standard-Regular-Italic.woff')
-			format('woff'),
-		url('./assets/GT America/TTF/GT-America-Standard-Regular-Italic.ttf')
-			format('truetype');
+  font-family: "GT America regular italic";
+  src: url("./assets/GT America/WOFF2/GT-America-Standard-Regular-Italic.woff2")
+      format("woff2"),
+    url("./assets/GT America/WOFF/GT-America-Standard-Regular-Italic.woff")
+      format("woff"),
+    url("./assets/GT America/TTF/GT-America-Standard-Regular-Italic.ttf")
+      format("truetype");
 }
