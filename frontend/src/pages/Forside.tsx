@@ -29,7 +29,12 @@ const ImageWithTextOverlay = () => {
 export function Forside() {
   return (
     <ForsideContainer>
-      <ImageWithTextOverlay />
+      <LogoContainer>
+        <ImageWithTextOverlay />
+        <StyledText href="https://ny-skjer.bekk.no/arrangementer/d49601ce-4cab-458d-90a8-dd9edb3d829f">
+          Meld deg på her!
+        </StyledText>
+      </LogoContainer>
       <ProgramButton
         to={"/program"}
         activeclassname="active"
@@ -41,6 +46,21 @@ export function Forside() {
     </ForsideContainer>
   );
 }
+
+const LogoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+`;
+
+const StyledText = styled.a`
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+`;
 
 const ProgramButton = styled(NavLink)<{ activeclassname: string }>`
   display: flex;
@@ -71,7 +91,7 @@ const Container = styled.div`
   display: flex;
   align-self: center;
   align-items: center;
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 20rem);
 `;
 
 const StyledImage = styled.img`
