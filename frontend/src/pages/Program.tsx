@@ -17,7 +17,6 @@ export function Program({ eventList }: Props) {
       tidsbolkDict[id] = [event];
     }
   });
-  console.log(tidsbolkDict);
 
   return (
     <>
