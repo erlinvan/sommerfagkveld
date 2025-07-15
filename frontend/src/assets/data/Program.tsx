@@ -185,4 +185,16 @@ Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene 
       kategorier: [],
     },
   },
+  {
+    id: "rec14",
+    fields: {
+      tid_fra: "20:00",
+      tittel: "Kreativ kveld",
+      beskrivelse: `Kreativ kveld sparker i gang for fullt! Her møter du på flere ulike stands, workshops og aktiviteter.`,
+      foredragsholder: "",
+      varighet: 0,
+      rom: "Hele skuret",
+      kategorier: [],
+    },
+  },
 ];
