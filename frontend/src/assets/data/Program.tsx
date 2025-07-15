@@ -45,13 +45,14 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
   {
     id: "rec4",
     fields: {
-      tittel: "Devhacks",
+      tittel: "Gjør hverdagen enklere med Raycast",
       rom: "Hovedøya",
       tid_fra: "16:30",
       foredragsholder: "Vemund Lund",
       varighet: 15,
-      beskrivelse: "",
-      kategorier: ["DevEx"],
+      beskrivelse:
+        "Lyst til å gjøre hverdagen litt enklere? I dette foredraget får du smarte triks og enkle grep som kan spare deg for både tid og frustrasjon.",
+      kategorier: ["Produktivitet"],
     },
   },
   {
