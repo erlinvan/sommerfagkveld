@@ -109,14 +109,6 @@ const StyledImage = styled.img`
 
   max-width: 80vw;
   max-height: 100%;
-
-  @media (min-width: 830px) {
-    max-height: 70vh;
-  }
-
-  @media (min-width: 1600px) {
-    max-height: 100vh;
-  }
 `;
 
 const StyledImg = styled.img`
