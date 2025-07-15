@@ -72,7 +72,7 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
     fields: {
       tittel: "Pause",
       rom: "Kantina",
-      tid_fra: "17:00",
+      tid_fra: "17:05",
       foredragsholder: "",
       varighet: 5,
       beskrivelse: "",
@@ -85,7 +85,7 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
     fields: {
       tittel: "Vet vi egentlig om det vi lager funker? 🔍",
       rom: "Kantina",
-      tid_fra: "17:05",
+      tid_fra: "17:10",
       foredragsholder: "Elena Snellingen",
       varighet: 15,
       beskrivelse: `Som utviklere og designere ønsker vi å lage løsninger som skaper verdi – ikke bare leverer funksjonalitet. Men hvordan vet vi om det faktisk fungerer? Ofte går vi rett fra idé til implementering uten å være tydelige på hva vi prøver å oppnå, eller hvordan vi skal måle effekt. Da mister vi muligheten til å lære – og risikerer å bygge videre på antakelser fremfor innsikt.I dette foredraget får du en praktisk introduksjon til hvordan hypotesedrevet utvikling kan hjelpe team med å teste ideer, lære raskere og jobbe mer målrettet🙌`,
@@ -98,7 +98,7 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
       tittel:
         "Hvordan skaper vi fremtidens digitale løsinger - og hvordan kommer de til å se ut?",
       rom: "Kantina",
-      tid_fra: "17:05",
+      tid_fra: "17:10",
       foredragsholder: "Markus Lavoll Gundersrud",
       varighet: 15,
       beskrivelse: `Den teknologiske utviklingen går raskere enn noen gang. AI sitt inntog utfordrer både hvordan vi jobber og løsningene vi skaper. Hvordan ser fremtiden ut for morgendagens utviklere og designere?`,
@@ -110,7 +110,7 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
     fields: {
       tittel: "Vi sa ikke nei til drømmebestillingen. Vi sa: vent litt.",
       rom: "Hovedøya",
-      tid_fra: "17:05",
+      tid_fra: "17:10",
       foredragsholder: "Kristoffer Æsøy",
       varighet: 15,
       beskrivelse: `Av og til får du alt du kan drømme om rett i fanget.
@@ -128,7 +128,7 @@ Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene 
       tittel:
         "Én kodebase, flere nettsider: Slik bygde vi Frontend as a Service",
       rom: "Hovedøya",
-      tid_fra: "17:05",
+      tid_fra: "17:10",
       foredragsholder: "Sandra Lekve, Christian Scheie Hein",
       varighet: 15,
       beskrivelse:
@@ -140,7 +140,7 @@ Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene 
     id: "rec10",
     fields: {
       tittel: "Pause",
-      tid_fra: "17:35",
+      tid_fra: "17:40",
       varighet: 25,
       beskrivelse: "",
       kategorier: [],
