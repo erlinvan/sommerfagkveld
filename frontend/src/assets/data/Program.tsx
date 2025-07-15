@@ -173,4 +173,16 @@ Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene 
       kategorier: [],
     },
   },
+  {
+    id: "rec13",
+    fields: {
+      tid_fra: "19:00",
+      tittel: "Mat",
+      beskrivelse: "Vi får servert digg mat fra Ugly Duckling",
+      foredragsholder: "Ugly duckling",
+      varighet: 60,
+      rom: "Kantina",
+      kategorier: [],
+    },
+  },
 ];
