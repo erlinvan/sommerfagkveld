@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled, { createGlobalStyle } from "styled-components";
-import { JenteMedGlass } from "./JenteMedGlass";
 import { Glass } from "./Glass";
 
 export function Navbar() {
