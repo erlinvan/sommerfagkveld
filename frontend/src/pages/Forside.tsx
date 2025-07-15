@@ -98,6 +98,7 @@ const StyledImage = styled.img`
   filter: opacity(0);
 
   max-width: 80vw;
+  max-height: 100%;
 
   @media (min-width: 830px) {
     max-height: 70vh;
