@@ -75,7 +75,7 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
       tid_fra: "17:00",
       foredragsholder: "",
       varighet: 5,
-      beskrivelse: "An event focusing on Vue.js ecosystem.",
+      beskrivelse: "",
       kategorier: [],
     },
   },
