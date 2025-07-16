@@ -154,7 +154,8 @@ Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene 
       tittel: "Rotfest- best fra bunnen av",
       rom: "Kantina",
       tid_fra: "18:00",
-      foredragsholder: "Kristin Håberg",
+      foredragsholder:
+        "Kristin Håberg, Sofie Tjønneland Urhaug, Ida Guldbrandsøy",
       varighet: 30,
       beskrivelse:
         "Hvordan markerer man egentlig 25 år som Bekk? Man lager selvfølgelig sin helt egne festival! I Vrådal – midt i Telemark, mellom fjorder og fjell – tok vi fag, håndverk, tradisjon og musikk, og blandet det med moderne vri og ekte Bekk-ånd. Vi skal fortelle om hvordan vi laget jubileumet vårt; fra idémyldring, konseptutvikling og gjennomføring- og hvorfor vi mener ting blir best når det lages av bekkere fra bunnen av",
