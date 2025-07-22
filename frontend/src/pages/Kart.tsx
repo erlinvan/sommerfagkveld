@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export function Kart() {
   return (
     <div>
-      <StyledImg src="kart_svg.svg" alt="kart" />
+      <StyledImg src="kart.svg" alt="kart" />
     </div>
   );
 }
