@@ -31,12 +31,6 @@ export function Forside() {
     <ForsideContainer>
       <LogoContainer>
         <ImageWithTextOverlay />
-        <RegistrationLink href="https://ny-skjer.bekk.no/arrangementer/d49601ce-4cab-458d-90a8-dd9edb3d829f">
-          Meld deg på her!
-        </RegistrationLink>
-        <ExternalRegistrationLink href="https://www.bekk.no/arrangementer/d49601ce-4cab-458d-90a8-dd9edb3d829f">
-          Påmelding for eksterne her!
-        </ExternalRegistrationLink>
       </LogoContainer>
       <ProgramButton
         to={"/program"}
@@ -56,20 +50,6 @@ const LogoContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-`;
-
-const ExternalRegistrationLink = styled.a`
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 2rem 0;
-  color: inherit;
-`;
-const RegistrationLink = styled.a`
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
 `;
 
 const ProgramButton = styled(NavLink)<{ activeclassname: string }>`
