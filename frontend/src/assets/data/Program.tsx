@@ -45,6 +45,18 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
   {
     id: "rec4",
     fields: {
+      tittel: "Språkmodeller i praksis",
+      rom: "Hovedøya",
+      tid_fra: "16:30",
+      foredragsholder: "Fredrik Wilhelm Butler Wang, Frimann Bergvik Garmann",
+      varighet: 15,
+      beskrivelse: `Det er mye snakk om språkmodeller om dagen, men hvordan fungerer dette egentlig? Hos Utdanningsdirektoratet har vi utviklet et saksbehandlingssystem (spennende ikke sant) ved hjelp av språkmodeller, og i denne presentasjonen skal vi snakke om hvordan dette prosjektet utviklet seg, samt vise hvordan man kan anvende språkmodeller i praksis.`,
+      kategorier: ["AI"],
+    },
+  },
+  {
+    id: "rec5",
+    fields: {
       tittel: "Gjør hverdagen enklere med Raycast",
       rom: "Hovedøya",
       tid_fra: "16:30",
@@ -53,18 +65,6 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
       beskrivelse:
         "Lyst til å gjøre hverdagen litt enklere? I dette foredraget får du smarte triks og enkle grep som kan spare deg for både tid og frustrasjon.",
       kategorier: ["Produktivitet"],
-    },
-  },
-  {
-    id: "rec5",
-    fields: {
-      tittel: "Språkmodeller i praksis",
-      rom: "Hovedøya",
-      tid_fra: "16:30",
-      foredragsholder: "Fredrik Wilhelm Butler Wang, Frimann Bergvik Garmann",
-      varighet: 15,
-      beskrivelse: `Det er mye snakk om språkmodeller om dagen, men hvordan fungerer dette egentlig? Hos Utdanningsdirektoratet har vi utviklet et saksbehandlingssystem (spennende ikke sant) ved hjelp av språkmodeller, og i denne presentasjonen skal vi snakke om hvordan dette prosjektet utviklet seg, samt vise hvordan man kan anvende språkmodeller i praksis.`,
-      kategorier: ["AI"],
     },
   },
   {
@@ -83,18 +83,6 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
   {
     id: "rec6",
     fields: {
-      tittel: "Vet vi egentlig om det vi lager funker? 🔍",
-      rom: "Kantina",
-      tid_fra: "17:10",
-      foredragsholder: "Elena Snellingen",
-      varighet: 15,
-      beskrivelse: `Som utviklere og designere ønsker vi å lage løsninger som skaper verdi – ikke bare leverer funksjonalitet. Men hvordan vet vi om det faktisk fungerer? Ofte går vi rett fra idé til implementering uten å være tydelige på hva vi prøver å oppnå, eller hvordan vi skal måle effekt. Da mister vi muligheten til å lære – og risikerer å bygge videre på antakelser fremfor innsikt.I dette foredraget får du en praktisk introduksjon til hvordan hypotesedrevet utvikling kan hjelpe team med å teste ideer, lære raskere og jobbe mer målrettet🙌`,
-      kategorier: ["Produktuvikling"],
-    },
-  },
-  {
-    id: "rec7",
-    fields: {
       tittel:
         "Hvordan skaper vi fremtidens digitale løsinger - og hvordan kommer de til å se ut?",
       rom: "Kantina",
@@ -106,7 +94,33 @@ I dette foredraget får du svaret – sammen med innsikt fra min egen masteroppg
     },
   },
   {
+    id: "rec7",
+    fields: {
+      tittel: "Vet vi egentlig om det vi lager funker? 🔍",
+      rom: "Kantina",
+      tid_fra: "17:10",
+      foredragsholder: "Elena Snellingen",
+      varighet: 15,
+      beskrivelse: `Som utviklere og designere ønsker vi å lage løsninger som skaper verdi – ikke bare leverer funksjonalitet. Men hvordan vet vi om det faktisk fungerer? Ofte går vi rett fra idé til implementering uten å være tydelige på hva vi prøver å oppnå, eller hvordan vi skal måle effekt. Da mister vi muligheten til å lære – og risikerer å bygge videre på antakelser fremfor innsikt.I dette foredraget får du en praktisk introduksjon til hvordan hypotesedrevet utvikling kan hjelpe team med å teste ideer, lære raskere og jobbe mer målrettet🙌`,
+      kategorier: ["Produktuvikling"],
+    },
+  },
+  {
     id: "rec8",
+    fields: {
+      tittel:
+        "Én kodebase, flere nettsider: Slik bygde vi Frontend as a Service",
+      rom: "Hovedøya",
+      tid_fra: "17:10",
+      foredragsholder: "Sandra Lekve, Christian Scheie Hein",
+      varighet: 15,
+      beskrivelse:
+        "Tre nye nettsider, én felles frontend og et teknisk løft som fikk både utviklere og redaktører til å juble! Vi bygde en skalerbar plattform, lanserte på rekordtid – og fikset en helt ny side på bare én uke. Dette er historien om hvordan vi tok sjansen, gønna på og leverte (uten å miste nattesøvnen)! 🚀",
+      kategorier: ["Frontend", "CMS"],
+    },
+  },
+  {
+    id: "rec9",
     fields: {
       tittel: "Vi sa ikke nei til drømmebestillingen. Vi sa: vent litt.",
       rom: "Hovedøya",
@@ -120,20 +134,6 @@ Men så gnager en liten usikkerhet: Er dette egentlig det rette å lage, med den
 
 Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene for drømmebestillingen, og endte opp med å bygge den likevel. 😎`,
       kategorier: ["Produktuvikling", "Måling"],
-    },
-  },
-  {
-    id: "rec9",
-    fields: {
-      tittel:
-        "Én kodebase, flere nettsider: Slik bygde vi Frontend as a Service",
-      rom: "Hovedøya",
-      tid_fra: "17:10",
-      foredragsholder: "Sandra Lekve, Christian Scheie Hein",
-      varighet: 15,
-      beskrivelse:
-        "Tre nye nettsider, én felles frontend og et teknisk løft som fikk både utviklere og redaktører til å juble! Vi bygde en skalerbar plattform, lanserte på rekordtid – og fikset en helt ny side på bare én uke. Dette er historien om hvordan vi tok sjansen, gønna på og leverte (uten å miste nattesøvnen)! 🚀",
-      kategorier: ["Frontend", "CMS"],
     },
   },
   {
@@ -163,14 +163,63 @@ Bli med på eventyret der vi gjorde vårt beste for å stikke kjepper i hjulene 
     },
   },
   {
-    id: "rec12",
+    id: "rec15",
     fields: {
-      tittel: "Lyntaler",
-      rom: "Kantina",
       tid_fra: "18:30",
-      foredragsholder: "Sommerjobbere",
-      varighet: 30,
-      beskrivelse: "Lyntaler med sommerjobbere",
+      tittel: "Topp 5 (av 5) retroer vi har hatt i sommer",
+      beskrivelse: `Vi gir en rask intro til retroene vi har hatt i sommer og rater de!`,
+      foredragsholder: "Sander Slinning, Sindre Halleraker, Erica Yang ",
+      varighet: 0,
+      rom: "Kantina",
+      kategorier: [],
+    },
+  },
+  {
+    id: "rec16",
+    fields: {
+      tid_fra: "18:30",
+      tittel: "ChatSSB",
+      beskrivelse: `Et forsøk på å få en forskningsbachelor inn i prod`,
+      foredragsholder: "Elias Trana, Trygve Jørgensen",
+      varighet: 0,
+      rom: "Kantina",
+      kategorier: [],
+    },
+  },
+  {
+    id: "rec17",
+    fields: {
+      tid_fra: "18:30",
+      tittel: "En lyntale om klipping og deling av konsertøyeblikk",
+      beskrivelse: `Musikkbransjen handler ikke bare om musikk lenger, artister må også være influensere. Det vil de helst slippe. Hvordan kan vi lage et verktøy i VIERLIVE som lar fansen dele konsertøyeblikk, så artistene kan fokusere på det de faktisk brenner for?`,
+      foredragsholder: "Dina Louise Bahr Bugge, Sara Sandhaug",
+      varighet: 0,
+      rom: "Kantina",
+      kategorier: [],
+    },
+  },
+  {
+    id: "rec18",
+    fields: {
+      tid_fra: "18:30",
+      tittel: "1 år på havet, min seiltur over atlanteren",
+      beskrivelse: `Jeg skal snakke om seilturen min over atlanterhavet, og om hvordan det er å leve leve i en båt i 1 år.`,
+      foredragsholder: "Ole Thomas Petrusson",
+      varighet: 0,
+      rom: "Kantina",
+      kategorier: [],
+    },
+  },
+  {
+    id: "rec19",
+    fields: {
+      tid_fra: "18:30",
+      tittel: "Tegn ideene dine!",
+      beskrivelse: `Vi presenterer litt om tegning som verktøy i idémyldring, basert på erfaringene fra et prosjekt med Nordnorsk Design- og Arkitektursenter.`,
+      foredragsholder:
+        "Catherine Coates Tvete, Frida Staxrud, Jenny Meen Johansen",
+      varighet: 0,
+      rom: "Kantina",
       kategorier: [],
     },
   },
