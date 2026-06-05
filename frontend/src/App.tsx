@@ -24,7 +24,7 @@ const mapEvents = (data: AirtableRecordType[]): EventType[] => {
       kategoriList: item.fields.kategorier
         ? item.fields.kategorier.sort((a, b) => a.localeCompare(b))
         : [],
-    })
+    }),
   );
 };
 
